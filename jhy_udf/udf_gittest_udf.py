@@ -6,5 +6,5 @@ from fused.models import Schema
 def gittest_udf():
     import geopandas as gpd
     from utils import geo_convert
-    gdf = gpd.read_parquet('s3://data-wiroba-com/ov_korea.geoparquet')
+    gdf = gpd.read_parquet('jhy_udf')
     return gdf
